@@ -9,12 +9,16 @@ section {
   margin-top: 10%;
 }
 
-
 .page-break {
     width: 200px;
     height: 1px;
     background: #063940;
     margin: 0 auto;
+}
+
+section.active {
+    color: blue;
+    background: green;
 }
 /*Navbar Section */
 .navbar-toggler-icon {
@@ -27,12 +31,15 @@ section {
 .nav-link {
     color: #E4D1FF;
 }
+.nav-item.active {
+color: blue;
+background: white;
+}
 .profile-pic { 
     text-align: center;
     margin: 0 auto;
     float: none;
 }
-
 .profile-pic img{
     max-width: 100%;
     height: auto;

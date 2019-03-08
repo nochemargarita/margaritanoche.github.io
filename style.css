@@ -1,26 +1,24 @@
 /*General*/
-
 body {
     background: #CCBCBC;
 }
-
-section {
-  height: 100vh;
-  margin-top: 10%;
-}
-
 .page-break {
     width: 200px;
     height: 1px;
     background: #063940;
     margin: 0 auto;
 }
-
-section.active {
-    color: blue;
-    background: green;
+.container {
+    padding-top: 4%;
 }
+.main, .skills, .blog {
+    background: #C7C9ED;
+}
+
 /*Navbar Section */
+#nav {
+    margin: 4%;
+}
 .navbar-toggler-icon {
     color: white;
     background: white;
@@ -28,13 +26,14 @@ section.active {
 .custom-nav {
     background: #854798;
 }
-.nav-link {
-    color: #E4D1FF;
+a.nav-link {
+    color: white;
 }
-.nav-item.active {
-color: blue;
-background: white;
+.nav-link:hover {
+    color: #E0D2F2;
 }
+
+/*Main*/
 .profile-pic { 
     text-align: center;
     margin: 0 auto;
@@ -50,7 +49,6 @@ background: white;
 .carousel-inner img {
   margin: auto;
 }
-
 .language-img {
     height: 170px;
     width: 170px;

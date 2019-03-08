@@ -15,32 +15,24 @@
   </head>
   <body>
     <!-- Navbar Section -->
-    <section>
+    <section id="nav">
         <nav class="navbar navbar-expand-lg fixed-top custom-nav">
-          <a class="navbar-brand" href="#">Logo</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-              <i class="fa fa-navicon"></i>
-            </span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link scrollto" href="#about">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link scrollto" href="#skills">Skills <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link scrollto" href="#contact">Contact</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link scrollto active" href="#main">LOGO <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link scrollto" href="#about">ABOUT</a>
+              <a class="nav-item nav-link scrollto" href="#skills">SKILLS</a>
+              <a class="nav-item nav-link scrollto" href="#portfolio">PORTFOLIO</a>
+              <a class="nav-item nav-link scrollto" href="#blog">BLOG</a>
+              <a class="nav-item nav-link scrollto" href="#contact">CONTACT</a>
+            </div>
           </div>
         </nav>
-
+    </section>
+    <section id="main" class="main">
         <div class="container">
             <div class="col-xs-6 col-md-4 profile-pic">
               <img
@@ -54,6 +46,7 @@
               <h3>Software Engineer</h3>
             </div>
         </div>
+    </section>
 
     </section>
     <!-- About Section -->
@@ -88,22 +81,22 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/python.png" alt="Python"></div>
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/javascript.png" alt="javascript language-img"></div>
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/html5.png" alt="html5"></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/python.png" alt="Python"><br><span><h4 class="text-center">PYTHON</h4></span></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/javascript.png" alt="javascript language-img"><br><span><h4 class="text-center">JAVASCRIPT</h4></span></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/html5.png" alt="html5"><br><span><h4 class="text-center">HTML5</h4></span></div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/css3.png" alt="css3"></div>
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/sql.png" alt="sql"></div>
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/jquery.png" alt="jquery"></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/css3.png" alt="css3"><br><span><h4 class="text-center">CSS3</h4></span></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/sql.png" alt="sql"><br><span><h4 class="text-center">SQL</h4></span></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/jquery.png" alt="jquery"><br><span><h4 class="text-center">JQUERY</h4></span></div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/bootstrap.png" alt="bootstrap"></div>
-                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/git.png" alt="git"></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/bootstrap.png" alt="bootstrap"><br><span><h4 class="text-center">BOOTSTRAP</h4></span></div>
+                <div class="col-sm"><img class="d-block w-33 language-img" src="images/skills/git.png" alt="git"><br><span><h4 class="text-center">GIT</h4></span></div>
               </div>
             </div>
           </div>
@@ -118,10 +111,19 @@
         <h5>Projects I created</h5>
       </div>
     </section>
+    <!-- Blog -->
+    <section id="blog" class="blog">
+      <div class="page-break"></div>
+      <div class="heading text-center">
+        <h2>Blog</h2>
+      </div>
+
+    </section>
+
     <!-- Contact -->
     <section id="contact" class="contact">
       <div class="page-break"></div>
-        <div class="heading text-center">
+      <div class="heading text-center">
         <h2>Contact</h2>
       </div>
       <div class="text-center">

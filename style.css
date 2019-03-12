@@ -2,35 +2,27 @@
 body {
     background: #CCBCBC;
 }
-.page-break {
-    width: 200px;
-    height: 1px;
-    background: #063940;
-    margin: 0 auto;
+.main-heading {
+    font-family: "eurostile",sans-serif;
 }
-.container {
-    padding-top: 4%;
+.sub-heading {
+    font-family: "europa",sans-serif;
 }
-.main, .skills, .blog {
-    background: #C7C9ED;
+#skills, #portfolio, #blog, #contact {
+    color: #6c757d;
 }
-
 /*Navbar Section */
 #nav {
     margin: 4%;
 }
-.navbar-toggler-icon {
-    color: white;
+.navbar-light {
     background: white;
 }
-.custom-nav {
-    background: #854798;
+.navbar-link {
+    color: #8C43FF;
 }
-a.nav-link {
-    color: white;
-}
-.nav-link:hover {
-    color: #E0D2F2;
+.navbar-link:hover {
+    color: #231070;
 }
 
 /*Main*/
@@ -46,6 +38,11 @@ a.nav-link {
 }
 
 /*About*/
+#about {
+    padding: 10%;
+    background: #8C43FF;
+    color: white;
+}
 .carousel-inner img {
   margin: auto;
 }
@@ -57,17 +54,27 @@ a.nav-link {
 /*Portfolio*/
 
 /*Contact*/
+.my-logo {
+    height: 20%;
+    width: 20%;
+    padding: 0;
+}
 .contact-li {
     display: inline-block;
 }
-
+.phone, .email {
+    color: #8C43FF;
+}
+.email:hover, .phone:hover {
+    color: #231070;
+}
 .fa-envelope {
     padding-left: 20px;
+    color: #8C43FF;
 }
 .fa-phone {
     padding-left: 20px;
     position: relative;
     top: 2px;
+    color: #8C43FF;
 }
-
-

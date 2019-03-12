@@ -29,12 +29,12 @@ body {
 }
 
 /*Main*/
-.profile-pic { 
+.my-logo { 
     text-align: center;
     margin: 0 auto;
     float: none;
 }
-.profile-pic img{
+.my-logo img{
     max-width: 100%;
     height: auto;
     margin-bottom: 22px;
@@ -56,28 +56,32 @@ body {
 
 /*Portfolio*/
 
-/*Contact*/
-.my-logo {
-    height: 20%;
-    width: 20%;
-    padding: 0;
+/*Footer*/
+#footer {
+    margin: 0;
+    padding: 4em;
+    color: white;
+    background-color: #8C43FF;
+}
+#footer::before {
+    content: none;
 }
 .contact-li {
     display: inline-block;
 }
 .phone, .email {
-    color: #8C43FF;
+    color: white;
 }
 .email:hover, .phone:hover {
     color: #231070;
 }
 .fa-envelope {
     padding-left: 20px;
-    color: #8C43FF;
+    color: white;
 }
 .fa-phone {
     padding-left: 20px;
     position: relative;
     top: 2px;
-    color: #8C43FF;
+    color: white;
 }

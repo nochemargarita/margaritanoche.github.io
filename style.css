@@ -55,7 +55,51 @@ body {
 }
 
 /*Portfolio*/
+.portfolio-work-image {
+    width: 12em;
+    height: 10em;
+    background: white;
+}
+.portfolio-work-image:hover {
+    opacity: .4;
+}
+i.fa-github {
+    -webkit-text-fill-color: #8C43FF;
+}
 
+.portfolio-div {
+  position: relative;
+  width:20%;
+  display: inline-block;
+}
+
+.portfolio-div img {
+  width: 100%;
+  height: auto;
+}
+.portfolio-div .github-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  padding: .30em;
+  border-radius: 50%;
+  border: solid .12em;
+  border-color: #D1C2FC;
+}
+.portfolio-div:hover .github-button:hover {
+    background-color: white;
+    fill: #8C43FF;
+}
+.github-button {
+  visibility: hidden; 
+  position: static;
+}
+.portfolio-div:hover .github-button {
+   visibility: visible;
+}
 /*Footer*/
 #footer {
     margin: 0;

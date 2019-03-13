@@ -66,9 +66,20 @@ body {
 #footer::before {
     content: none;
 }
+.button .is-small{
+    padding: .30em;
+    border-radius: 50%;
+    border: solid .12em;
+    border-color: #dbdbdb;
+}
+.button:hover .is-small:hover {
+    background-color: white;
+    fill: #8C43FF;
+}
 .is-small {
-    height: 1.5em;
-    width: 1.5em;
+    margin: .5em;
+    height: 2.5em;
+    width: 2.5em;
     fill: white;
 }
 .contact-li {

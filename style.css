@@ -46,36 +46,35 @@ body {
     background: #8C43FF;
     color: white;
 }
+
+/*Skills*/
 .carousel-inner img {
   margin: auto;
 }
+.col-sm {
+    max-width: 8em !important;
+}
 .language-img {
-    height: 170px;
-    width: 170px;
+    height: 5em;
+    width: 4.75em;
 }
 
 /*Portfolio*/
-.portfolio-work-image {
-    width: 12em;
-    height: 10em;
-    background: white;
-}
-.portfolio-work-image:hover {
-    opacity: .4;
-}
 i.fa-github {
     -webkit-text-fill-color: #8C43FF;
 }
-
 .portfolio-div {
   position: relative;
   width:20%;
   display: inline-block;
 }
-
-.portfolio-div img {
+.portfolio-div .portfolio-work-image{
   width: 100%;
   height: auto;
+  background: white;
+}
+.portfolio-work-image:hover {
+    opacity: .4;
 }
 .portfolio-div .github-button {
   position: absolute;

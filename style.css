@@ -27,11 +27,11 @@ body {
 .navbar-link:hover {
     color: #231070;
 }
-.m-logo {
-    width: 4em;
-    height: 4em;
+.main-logo {
+    width: 3em;
+    height: 3em;
 }
-.m-logo-button {
+.main-logo-button {
     background: transparent;
     border: none;
 }
@@ -117,6 +117,10 @@ i.fa-github {
 #footer::before {
     content: none;
 }
+.main-logo-white {
+    width: 6em;
+    height: 7em;
+}
 .button .is-small{
     padding: .30em;
     border-radius: 50%;
@@ -129,8 +133,8 @@ i.fa-github {
 }
 .is-small {
     margin: .5em;
-    height: 2.5em;
-    width: 2.5em;
+    height: 2em;
+    width: 2em;
     fill: white;
 }
 .contact-li {

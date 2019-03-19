@@ -107,6 +107,23 @@ i.fa-github {
 .portfolio-div:hover .github-button {
    visibility: visible;
 }
+/*Blog*/
+#blog-container {
+  margin-top: 2.1em;
+  width: 80%;
+}
+li {
+  list-style: none;
+}
+.small {
+  font-size: smaller;
+}
+a.blog-link {
+    color: #8C43FF;
+}
+a.blog-link:hover {
+    color: #231070;
+}
 /*Footer*/
 #footer {
     margin: 0;

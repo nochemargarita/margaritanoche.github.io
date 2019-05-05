@@ -1,4 +1,8 @@
 'use strict';
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
+
 $('.scrollto').click(function(e){
     e.preventDefault();
     var scrollElm = $(this).attr('href');

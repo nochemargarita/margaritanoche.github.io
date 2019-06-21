@@ -78,10 +78,7 @@ body {
     height: 5em;
     width: 4.75em;
 }
-/*.tech-list {
-  display: table;
-  width: 
-}*/
+
 th.tech-header {
   background-color: #6ed3cf;
 }
@@ -207,4 +204,8 @@ a.blog-link:hover {
 }
 .writen-blog {
   margin-bottom: 2em;
+}
+.blog-photo {
+  height: 70%;
+  width: 80%;
 }

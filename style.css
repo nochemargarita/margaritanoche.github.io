@@ -12,7 +12,7 @@ body {
 .sub-heading {
     font-family: "europa",sans-serif;
 }
-#skills, #portfolio, #blog, #contact {
+#technologies, #portfolio, #blog, #contact {
     color: #6c757d;
 }
 /*loader*/
@@ -67,7 +67,7 @@ body {
     color: white;
 }
 
-/*Skills*/
+/*technologies*/
 .carousel-inner img {
   margin: auto;
 }
@@ -77,6 +77,18 @@ body {
 .language-img {
     height: 5em;
     width: 4.75em;
+}
+/*.tech-list {
+  display: table;
+  width: 
+}*/
+th.tech-header {
+  background-color: #6ed3cf;
+}
+
+.tech {
+  background: #8C43FF;
+  color: white ;
 }
 
 /*Portfolio*/
